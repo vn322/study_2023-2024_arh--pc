@@ -90,7 +90,7 @@ git config --global core.safecrlf warn
 
 Описываются проведённые действия, в качестве иллюстрации даётся ссылка на иллюстрацию (рис. @fig:001).(рис. 4.1).
 
-![4.1](https://github.com/vn322/study_2023-2024_arh--pc/blob/master/labs/lab02/report/image/21.png)
+![4.1]()
 
 _Рис. 4.1. Предварительная конфигурация git_
 

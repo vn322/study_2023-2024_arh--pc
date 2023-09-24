@@ -65,6 +65,40 @@ header-includes:
   - \usepackage{float} # keep figures where there are in the text
   - \floatplacement{figure}{H} # keep figures where there are in the text
 ---
+#Титульный лист
+РОССИЙСКИЙ УНИВЕРСИТЕТ ДРУЖБЫ НАРОДОВ
+Факультет физико-математических и естественных наук
+Кафедра прикладной информатики и теории вероятностей
+
+
+
+
+
+ОТЧЕТ 
+ПО ЛАБОРАТОРНОЙ РАБОТЕ № 1
+дисциплина:	Архитектура компьютера	 
+
+
+
+
+
+
+
+
+
+Студент:  Ермаков А.В.                                   
+
+	Группа: НФПбд-01-21
+
+№ ст. билета: 1032213202                                    
+
+
+
+
+МОСКВА
+2023 г.
+
+
 
 # Цель работы
 
@@ -104,9 +138,10 @@ header-includes:
 
 # Выполнение лабораторной работы
 
-Предварительная конфигурацию git командами:
+Предварительная конфигурация git проводится командами:
 git config --global user.name 
-git config --global user.email 
+git config --global user.email
+Здесь указываются имя и email владельца репозитория
 Настройка utf-8 в выводе сообщений git:
 git config --global core.quotepath false
 Задаётся имя начальной ветки (master):

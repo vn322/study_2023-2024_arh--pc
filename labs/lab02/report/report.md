@@ -74,8 +74,11 @@ header-includes:
 
 # Задание
 
-Здесь приводится описание задания в соответствии с рекомендациями
-методического пособия и выданным вариантом.
+1. Создайте отчет по выполнению лабораторной работы в соответствующем каталоге
+рабочего пространства (labs>lab02>report).
+2. Скопируйте отчеты по выполнению предыдущих лабораторных работ в соответствую-
+щие каталоги созданного рабочего пространства.
+3. Загрузите файлы на github
 
 # Теоретическое введение
 
@@ -100,6 +103,18 @@ header-includes:
 Более подробно об Unix см. в [@gnu-doc:bash;@newham:2005:bash;@zarrelli:2017:bash;@robbins:2013:bash;@tannenbaum:arch-pc:ru;@tannenbaum:modern-os:ru].
 
 # Выполнение лабораторной работы
+
+Предварительная конфигурацию git командами:
+git config --global user.name 
+git config --global user.email 
+Настройка utf-8 в выводе сообщений git:
+git config --global core.quotepath false
+Задаётся имя начальной ветки (master):
+git config --global init.defaultBranch master
+Параметр autocrlf:
+git config --global core.autocrlf input
+Параметр safecrlf:
+git config --global core.safecrlf warn
 
 Описываются проведённые действия, в качестве иллюстрации даётся ссылка на иллюстрацию (рис. @fig:001).
 
